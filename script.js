@@ -29,7 +29,7 @@ document.body.appendChild(button);
 function randomizeColors() {
 	color1.value = "#" + Math.floor(Math.random()*16777215).toString(16);
 	color2.value = "#" + Math.floor(Math.random()*16777215).toString(16);
-	// Set background to match colors generate
+	// Set background to match colors generated
 	setGradient()
  };
 
